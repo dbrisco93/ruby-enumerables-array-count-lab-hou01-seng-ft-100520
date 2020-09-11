@@ -4,7 +4,7 @@ def count_strings(array)
   total = 0
   
   while index < array.count do
-    if array[index] = String
+    if array[index].class == String
       total +=1
     end
     index += 1
